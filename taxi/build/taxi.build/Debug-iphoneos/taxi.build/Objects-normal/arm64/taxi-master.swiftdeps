@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "0289a17da77d6775167985c5582df2aa"
+build_time: [1522039219, 135471000]
+inputs:
+  "/Users/Polina/XcodeApp/taxi/taxi/ViewController.swift": [1522039199, 0]
+  "/Users/Polina/XcodeApp/taxi/taxi/AppDelegate.swift": [1522039199, 0]
