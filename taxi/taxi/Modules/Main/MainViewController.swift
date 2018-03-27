@@ -12,7 +12,10 @@ class MainViewController: UIViewController {
 
 	var presenter: MainPresenter!
 
-	override func viewDidLoad() {
+    @IBAction func openMap(_ sender: Any) {
+        presenter.navigateToMapViewController()
+    }
+    override func viewDidLoad() {
         super.viewDidLoad()
     }
 }

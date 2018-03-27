@@ -31,6 +31,7 @@
 		F79EE2C0206A003C0015B5C1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79EE2BA206A003C0015B5C1 /* MapViewController.swift */; };
 		F79EE2C5206A015B0015B5C1 /* AppDIPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79EE2C4206A015B0015B5C1 /* AppDIPart.swift */; };
 		F79EE2C7206A016C0015B5C1 /* NetworkDIPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79EE2C6206A016C0015B5C1 /* NetworkDIPart.swift */; };
+		F79EE2D2206A1FC90015B5C1 /* map.js in Resources */ = {isa = PBXBuildFile; fileRef = F79EE2D1206A1FC90015B5C1 /* map.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,8 @@
 		F79EE2BA206A003C0015B5C1 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		F79EE2C4206A015B0015B5C1 /* AppDIPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDIPart.swift; sourceTree = "<group>"; };
 		F79EE2C6206A016C0015B5C1 /* NetworkDIPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDIPart.swift; sourceTree = "<group>"; };
+		F79EE2C9206A0C5A0015B5C1 /* map.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = map.js; sourceTree = "<group>"; };
+		F79EE2D1206A1FC90015B5C1 /* map.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = map.js; path = taxi/map.js; sourceTree = "<group>"; };
 		F914D161A09DE43AC8344332 /* Pods_taxiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taxiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBBBD07FE497BB1DE42E6E2B /* Pods_taxi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taxi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEC16F893B695759F2C0028C /* Pods-taxi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taxi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-taxi/Pods-taxi.debug.xcconfig"; sourceTree = "<group>"; };
@@ -120,6 +123,7 @@
 		369FAC542068B11F00275408 = {
 			isa = PBXGroup;
 			children = (
+				F79EE2D1206A1FC90015B5C1 /* map.js */,
 				369FAC5F2068B11F00275408 /* taxi */,
 				369FAC742068B12000275408 /* taxiTests */,
 				369FAC7F2068B12000275408 /* taxiUITests */,
@@ -142,6 +146,7 @@
 		369FAC5F2068B11F00275408 /* taxi */ = {
 			isa = PBXGroup;
 			children = (
+				F79EE2C8206A0AB10015B5C1 /* YandexMap */,
 				F79EE2C3206A01400015B5C1 /* DI */,
 				F79EE2C2206A00740015B5C1 /* Services */,
 				F79EE2A72069FFB30015B5C1 /* Modules */,
@@ -151,6 +156,7 @@
 				369FAC672068B11F00275408 /* Assets.xcassets */,
 				369FAC692068B11F00275408 /* LaunchScreen.storyboard */,
 				369FAC6C2068B11F00275408 /* Info.plist */,
+				F79EE2C9206A0C5A0015B5C1 /* map.js */,
 			);
 			path = taxi;
 			sourceTree = "<group>";
@@ -245,6 +251,13 @@
 				F79EE2C6206A016C0015B5C1 /* NetworkDIPart.swift */,
 			);
 			path = DI;
+			sourceTree = "<group>";
+		};
+		F79EE2C8206A0AB10015B5C1 /* YandexMap */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = YandexMap;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,6 +376,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F79EE2D2206A1FC90015B5C1 /* map.js in Resources */,
 				369FAC6B2068B11F00275408 /* LaunchScreen.storyboard in Resources */,
 				369FAC682068B11F00275408 /* Assets.xcassets in Resources */,
 				F79EE2BB206A003C0015B5C1 /* Map.storyboard in Resources */,
@@ -511,25 +525,47 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-taxi/Pods-taxi-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/CodableAlamofire/CodableAlamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Cordova/Cordova.framework",
+				"${BUILT_PRODUCTS_DIR}/CordovaPlugin-console/CordovaPlugin_console.framework",
 				"${BUILT_PRODUCTS_DIR}/DITranquillity/DITranquillity.framework",
 				"${BUILT_PRODUCTS_DIR}/Localize-Swift/Localize_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/MapsAPI/MapsAPI.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftHash/SwiftHash.framework",
+				"${BUILT_PRODUCTS_DIR}/cordova-plugin-device/cordova_plugin_device.framework",
+				"${BUILT_PRODUCTS_DIR}/cordova-plugin-device-motion/cordova_plugin_device_motion.framework",
+				"${BUILT_PRODUCTS_DIR}/cordova-plugin-device-orientation/cordova_plugin_device_orientation.framework",
+				"${BUILT_PRODUCTS_DIR}/cordova-plugin-file/cordova_plugin_file.framework",
+				"${BUILT_PRODUCTS_DIR}/cordova-plugin-geolocation/cordova_plugin_geolocation.framework",
+				"${BUILT_PRODUCTS_DIR}/cordova-plugin-globalization/cordova_plugin_globalization.framework",
+				"${BUILT_PRODUCTS_DIR}/cordova-plugin-network-information/cordova_plugin_network_information.framework",
+				"${BUILT_PRODUCTS_DIR}/cordova-plugin-wkwebview-engine/cordova_plugin_wkwebview_engine.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CodableAlamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cordova.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CordovaPlugin_console.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DITranquillity.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Localize_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapsAPI.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftHash.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cordova_plugin_device.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cordova_plugin_device_motion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cordova_plugin_device_orientation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cordova_plugin_file.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cordova_plugin_geolocation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cordova_plugin_globalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cordova_plugin_network_information.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cordova_plugin_wkwebview_engine.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

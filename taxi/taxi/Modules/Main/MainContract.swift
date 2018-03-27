@@ -13,9 +13,9 @@ protocol MainView: class {
 }
 
 protocol MainPresenter {
-    
+    func navigateToMapViewController()
 }
 
 protocol MainRouter {
-
+    func navigateToMapViewController()
 }

@@ -18,4 +18,7 @@ class MainPresenterImpl: MainPresenter {
         self.router = router
     }
 
+    func navigateToMapViewController(){
+        router.navigateToMapViewController()
+    }
 }

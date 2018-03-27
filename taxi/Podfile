@@ -11,6 +11,7 @@ target ‘taxi’ do
   pod 'SwiftHash'
   pod 'Localize-Swift'
   pod 'SVProgressHUD'
+  pod 'MapsAPI'
 
   # Pods for taxi
 

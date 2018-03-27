@@ -19,9 +19,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GsI-GQ-lmX">
-                                <rect key="frame" x="164" y="139" width="46" height="30"/>
+                                <rect key="frame" x="164" y="139" width="85" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="open Map"/>
+                                <connections>
+                                    <action selector="openMap:" destination="IOg-qQ-19V" eventType="touchUpInside" id="VIQ-Yd-6WB"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rXe-ZW-68N">
                                 <rect key="frame" x="164" y="217" width="46" height="30"/>
@@ -35,7 +38,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pgx-W2-fNs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="108" y="93"/>
+            <point key="canvasLocation" x="108" y="92.203898050974516"/>
         </scene>
     </scenes>
 </document>

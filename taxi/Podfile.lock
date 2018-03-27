@@ -2,8 +2,38 @@ PODS:
   - Alamofire (4.6.0)
   - CodableAlamofire (1.1.0):
     - Alamofire (~> 4.0)
+  - Cordova (4.1.1)
+  - cordova-plugin-device (1.1.1):
+    - Cordova (>= 4.0.1)
+  - cordova-plugin-device-motion (1.2.0):
+    - Cordova (>= 4.0.1)
+  - cordova-plugin-device-orientation (1.0.2):
+    - Cordova (>= 4.0.1)
+  - cordova-plugin-file (4.2.0):
+    - Cordova (>= 4.0.1)
+  - cordova-plugin-geolocation (2.1.0):
+    - Cordova (>= 4.0.1)
+  - cordova-plugin-globalization (1.0.2):
+    - Cordova (>= 4.0.1)
+  - cordova-plugin-network-information (1.2.0):
+    - Cordova (>= 4.0.1)
+  - cordova-plugin-wkwebview-engine (1.0.2):
+    - Cordova (>= 4.0.1)
+  - CordovaPlugin-console (0.2.10):
+    - Cordova (>= 3.0.0)
   - DITranquillity (3.2.0)
   - Localize-Swift (2.0.0)
+  - MapsAPI (0.0.1):
+    - Cordova (~> 4.1.0)
+    - cordova-plugin-device
+    - cordova-plugin-device-motion
+    - cordova-plugin-device-orientation
+    - cordova-plugin-file (~> 4.2.0)
+    - cordova-plugin-geolocation
+    - cordova-plugin-globalization
+    - cordova-plugin-network-information
+    - cordova-plugin-wkwebview-engine
+    - CordovaPlugin-console
   - ObjectMapper (3.1.0)
   - RxAlamofire (4.1.0):
     - RxAlamofire/Core (= 4.1.0)
@@ -18,6 +48,7 @@ DEPENDENCIES:
   - CodableAlamofire
   - DITranquillity
   - Localize-Swift
+  - MapsAPI
   - ObjectMapper
   - RxAlamofire
   - SVProgressHUD
@@ -26,14 +57,25 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
   CodableAlamofire: e2d2edcec7cf413f7862c30c8fa98eded27a83f9
+  Cordova: 9e3e474dc62b9de3ae497093fc7f66157917be74
+  cordova-plugin-device: 3412e6b48e329996ba17c845cdd25cb9ac0af7e2
+  cordova-plugin-device-motion: 30503b3ba3092dbccdca9dc34f9d4ec851bf3e80
+  cordova-plugin-device-orientation: 687a72efac2398955ed256d856dc822850a69edb
+  cordova-plugin-file: d4bb83c4a62ed990a57db171ab3b04c516808f5c
+  cordova-plugin-geolocation: 05450762ef68612bf857b61c36877b21c1266420
+  cordova-plugin-globalization: bd6ba379dfef19c46d905fa2fe75be64e247e1a2
+  cordova-plugin-network-information: eb6d5b97e395f9c0199cae2128319c054753f3ea
+  cordova-plugin-wkwebview-engine: d07b627d9d0cfcc4276671cddb3bb7b6a842e67c
+  CordovaPlugin-console: aeb6015a9830edaaf8158a6b49f18189ebf38aa5
   DITranquillity: c3baa52749152e743f44c75fc28b0a746b31ea29
   Localize-Swift: c798ec9286494866f7068f85f7c71283ac5bdab4
+  MapsAPI: 486084340a7ea19852a7366bea3b3c8d10bba166
   ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
   RxAlamofire: 96a2bff4694a1609bb59c57b53d99ea7a0ddc64a
   RxSwift: e49536837d9901277638493ea537394d4b55f570
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   SwiftHash: c805de5a434eacfa0dac7210745a50c55d7fe33d
 
-PODFILE CHECKSUM: b886f238d9cbed39a26fe5b79d113e59e533bce4
+PODFILE CHECKSUM: 865654a01401e2c7e7956784bd67a4e50562c159
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.4.0.beta.2

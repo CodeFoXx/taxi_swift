@@ -18,4 +18,12 @@ class MainRouterImpl: MainRouter {
         self.viewController = viewController
         self.container = container
     }
+    
+    func navigateToMapViewController(){
+        let mapVC: MapViewController = *container
+        let title = UILabel()
+        title.text = "Map"
+        mapVC.navigationItem.titleView = title
+        viewController?.navigationController?.pushViewController(mapVC, animated: true)
+    }
 }

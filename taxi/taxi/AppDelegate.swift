@@ -52,7 +52,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         container.append(part: AppDIPart.self)
         container.append(part: NetworkDIPart.self)
         container.append(part: MainDIPart.self)
-        container.append(part: MainDIPart.self)
+        container.append(part: MapDIPart.self)
         if !container.validate(){
             fatalError("DI fatal error!")
         }
