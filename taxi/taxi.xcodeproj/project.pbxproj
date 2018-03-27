@@ -17,6 +17,20 @@
 		369FAC812068B12000275408 /* taxiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369FAC802068B12000275408 /* taxiUITests.swift */; };
 		3E868C5561BCAB02D847AB90 /* Pods_taxiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4BF3C7E49F092B0DBC0A8C /* Pods_taxiTests.framework */; };
 		74B45884D2F31489AB7E17B4 /* Pods_taxiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F914D161A09DE43AC8344332 /* Pods_taxiUITests.framework */; };
+		F79EE2AE206A00020015B5C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F79EE2A8206A00020015B5C1 /* Main.storyboard */; };
+		F79EE2AF206A00020015B5C1 /* MainContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79EE2A9206A00020015B5C1 /* MainContract.swift */; };
+		F79EE2B0206A00020015B5C1 /* MainDIPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79EE2AA206A00020015B5C1 /* MainDIPart.swift */; };
+		F79EE2B1206A00020015B5C1 /* MainPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79EE2AB206A00020015B5C1 /* MainPresenterImpl.swift */; };
+		F79EE2B2206A00020015B5C1 /* MainRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79EE2AC206A00020015B5C1 /* MainRouterImpl.swift */; };
+		F79EE2B3206A00020015B5C1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79EE2AD206A00020015B5C1 /* MainViewController.swift */; };
+		F79EE2BB206A003C0015B5C1 /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F79EE2B5206A003C0015B5C1 /* Map.storyboard */; };
+		F79EE2BC206A003C0015B5C1 /* MapContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79EE2B6206A003C0015B5C1 /* MapContract.swift */; };
+		F79EE2BD206A003C0015B5C1 /* MapDIPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79EE2B7206A003C0015B5C1 /* MapDIPart.swift */; };
+		F79EE2BE206A003C0015B5C1 /* MapPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79EE2B8206A003C0015B5C1 /* MapPresenterImpl.swift */; };
+		F79EE2BF206A003C0015B5C1 /* MapRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79EE2B9206A003C0015B5C1 /* MapRouterImpl.swift */; };
+		F79EE2C0206A003C0015B5C1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79EE2BA206A003C0015B5C1 /* MapViewController.swift */; };
+		F79EE2C5206A015B0015B5C1 /* AppDIPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79EE2C4206A015B0015B5C1 /* AppDIPart.swift */; };
+		F79EE2C7206A016C0015B5C1 /* NetworkDIPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79EE2C6206A016C0015B5C1 /* NetworkDIPart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +70,20 @@
 		B23F00E49C07C2C939B879AB /* Pods-taxi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taxi.release.xcconfig"; path = "Pods/Target Support Files/Pods-taxi/Pods-taxi.release.xcconfig"; sourceTree = "<group>"; };
 		B80E2F9E84C785DEE462B227 /* Pods-taxiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taxiUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-taxiUITests/Pods-taxiUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F22CDF37C1F223FB77DAC616 /* Pods-taxiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taxiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-taxiTests/Pods-taxiTests.release.xcconfig"; sourceTree = "<group>"; };
+		F79EE2A8206A00020015B5C1 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F79EE2A9206A00020015B5C1 /* MainContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContract.swift; sourceTree = "<group>"; };
+		F79EE2AA206A00020015B5C1 /* MainDIPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDIPart.swift; sourceTree = "<group>"; };
+		F79EE2AB206A00020015B5C1 /* MainPresenterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenterImpl.swift; sourceTree = "<group>"; };
+		F79EE2AC206A00020015B5C1 /* MainRouterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouterImpl.swift; sourceTree = "<group>"; };
+		F79EE2AD206A00020015B5C1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F79EE2B5206A003C0015B5C1 /* Map.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
+		F79EE2B6206A003C0015B5C1 /* MapContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapContract.swift; sourceTree = "<group>"; };
+		F79EE2B7206A003C0015B5C1 /* MapDIPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDIPart.swift; sourceTree = "<group>"; };
+		F79EE2B8206A003C0015B5C1 /* MapPresenterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPresenterImpl.swift; sourceTree = "<group>"; };
+		F79EE2B9206A003C0015B5C1 /* MapRouterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapRouterImpl.swift; sourceTree = "<group>"; };
+		F79EE2BA206A003C0015B5C1 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		F79EE2C4206A015B0015B5C1 /* AppDIPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDIPart.swift; sourceTree = "<group>"; };
+		F79EE2C6206A016C0015B5C1 /* NetworkDIPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDIPart.swift; sourceTree = "<group>"; };
 		F914D161A09DE43AC8344332 /* Pods_taxiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taxiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBBBD07FE497BB1DE42E6E2B /* Pods_taxi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taxi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEC16F893B695759F2C0028C /* Pods-taxi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taxi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-taxi/Pods-taxi.debug.xcconfig"; sourceTree = "<group>"; };
@@ -114,6 +142,9 @@
 		369FAC5F2068B11F00275408 /* taxi */ = {
 			isa = PBXGroup;
 			children = (
+				F79EE2C3206A01400015B5C1 /* DI */,
+				F79EE2C2206A00740015B5C1 /* Services */,
+				F79EE2A72069FFB30015B5C1 /* Modules */,
 				369FAC602068B11F00275408 /* AppDelegate.swift */,
 				369FAC622068B11F00275408 /* ViewController.swift */,
 				369FAC642068B11F00275408 /* Main.storyboard */,
@@ -163,6 +194,57 @@
 				7046EB157555C12F820FDB21 /* Pods-taxiUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		F79EE2A72069FFB30015B5C1 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F79EE2C1206A00430015B5C1 /* Map */,
+				F79EE2B4206A000A0015B5C1 /* Main */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F79EE2B4206A000A0015B5C1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F79EE2A8206A00020015B5C1 /* Main.storyboard */,
+				F79EE2A9206A00020015B5C1 /* MainContract.swift */,
+				F79EE2AA206A00020015B5C1 /* MainDIPart.swift */,
+				F79EE2AB206A00020015B5C1 /* MainPresenterImpl.swift */,
+				F79EE2AC206A00020015B5C1 /* MainRouterImpl.swift */,
+				F79EE2AD206A00020015B5C1 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F79EE2C1206A00430015B5C1 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				F79EE2B5206A003C0015B5C1 /* Map.storyboard */,
+				F79EE2B6206A003C0015B5C1 /* MapContract.swift */,
+				F79EE2B7206A003C0015B5C1 /* MapDIPart.swift */,
+				F79EE2B8206A003C0015B5C1 /* MapPresenterImpl.swift */,
+				F79EE2B9206A003C0015B5C1 /* MapRouterImpl.swift */,
+				F79EE2BA206A003C0015B5C1 /* MapViewController.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		F79EE2C2206A00740015B5C1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F79EE2C3206A01400015B5C1 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				F79EE2C4206A015B0015B5C1 /* AppDIPart.swift */,
+				F79EE2C6206A016C0015B5C1 /* NetworkDIPart.swift */,
+			);
+			path = DI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,7 +365,9 @@
 			files = (
 				369FAC6B2068B11F00275408 /* LaunchScreen.storyboard in Resources */,
 				369FAC682068B11F00275408 /* Assets.xcassets in Resources */,
+				F79EE2BB206A003C0015B5C1 /* Map.storyboard in Resources */,
 				369FAC662068B11F00275408 /* Main.storyboard in Resources */,
+				F79EE2AE206A00020015B5C1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,8 +558,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F79EE2BC206A003C0015B5C1 /* MapContract.swift in Sources */,
+				F79EE2B3206A00020015B5C1 /* MainViewController.swift in Sources */,
+				F79EE2BF206A003C0015B5C1 /* MapRouterImpl.swift in Sources */,
+				F79EE2B0206A00020015B5C1 /* MainDIPart.swift in Sources */,
+				F79EE2BE206A003C0015B5C1 /* MapPresenterImpl.swift in Sources */,
+				F79EE2B1206A00020015B5C1 /* MainPresenterImpl.swift in Sources */,
 				369FAC632068B11F00275408 /* ViewController.swift in Sources */,
+				F79EE2C0206A003C0015B5C1 /* MapViewController.swift in Sources */,
+				F79EE2C7206A016C0015B5C1 /* NetworkDIPart.swift in Sources */,
+				F79EE2AF206A00020015B5C1 /* MainContract.swift in Sources */,
 				369FAC612068B11F00275408 /* AppDelegate.swift in Sources */,
+				F79EE2C5206A015B0015B5C1 /* AppDIPart.swift in Sources */,
+				F79EE2B2206A00020015B5C1 /* MainRouterImpl.swift in Sources */,
+				F79EE2BD206A003C0015B5C1 /* MapDIPart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
