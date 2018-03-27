@@ -8,11 +8,22 @@ ymaps.ready(['native']).then(function (ymaps) {
 
     geoObject = new ymaps.Placemark(map.getCenter(), {
         iconContent: 'Go here',
-        balloonContent: 'Lorem ipsum dolor sit amet'
+        balloonContent: 'blablabla'
     }, {
     preset: 'islands#redStretchyIcon'
     });
 
+ymaps.route(['Москва', 'Санкт-Петербург']).then(
+function (route) {
+myMap.geoObjects.add(route);
+},
+function (error) {
+alert('Возникла ошибка: ' + error.message);
+}
+);
+
     map.geoObjects.add(geoObject);
 
 }).fail(console.error, console);
+
+
