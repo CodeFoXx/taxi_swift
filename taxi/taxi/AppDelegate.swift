@@ -8,6 +8,9 @@
 
 import UIKit
 import DITranquillity
+import GoogleMaps
+
+let googleApiKey = "AIzaSyAIoqJTidmBdbWlW6iiljfwde7C2eta-Ts"
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -20,6 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
+        GMSServices.provideAPIKey(googleApiKey)
         buildDependencyComponent()
         setupRootViewController()
         return true
@@ -53,6 +57,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         container.append(part: NetworkDIPart.self)
         container.append(part: MainDIPart.self)
         container.append(part: MapDIPart.self)
+        container.append(part: GoogleMapDIPart.self)
         if !container.validate(){
             fatalError("DI fatal error!")
         }

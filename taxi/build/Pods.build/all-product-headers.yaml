@@ -1,0 +1,833 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Alamofire-Swift.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Alamofire-umbrella.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Pods.build/Debug-iphoneos/Alamofire.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/CodableAlamofire/CodableAlamofire.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "CodableAlamofire-Swift.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/CodableAlamofire/CodableAlamofire.framework/Headers/CodableAlamofire-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "CodableAlamofire-umbrella.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Target Support Files/CodableAlamofire/CodableAlamofire-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "CodableAlamofire.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/CodableAlamofire/Sources/Supporting Files/CodableAlamofire.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/CodableAlamofire/CodableAlamofire.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Pods.build/Debug-iphoneos/CodableAlamofire.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "CDV.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Cordova/CordovaLib/Classes/Public/CDV.h"
+        },
+        {
+          'type': 'file',
+          'name': "CDVAppDelegate.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Cordova/CordovaLib/Classes/Public/CDVAppDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "CDVAvailability.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Cordova/CordovaLib/Classes/Public/CDVAvailability.h"
+        },
+        {
+          'type': 'file',
+          'name': "CDVAvailabilityDeprecated.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Cordova/CordovaLib/Classes/Public/CDVAvailabilityDeprecated.h"
+        },
+        {
+          'type': 'file',
+          'name': "CDVCommandDelegate.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Cordova/CordovaLib/Classes/Public/CDVCommandDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "CDVCommandDelegateImpl.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Cordova/CordovaLib/Classes/Public/CDVCommandDelegateImpl.h"
+        },
+        {
+          'type': 'file',
+          'name': "CDVCommandQueue.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Cordova/CordovaLib/Classes/Public/CDVCommandQueue.h"
+        },
+        {
+          'type': 'file',
+          'name': "CDVConfigParser.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Cordova/CordovaLib/Classes/Public/CDVConfigParser.h"
+        },
+        {
+          'type': 'file',
+          'name': "CDVDebug.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Cordova/CordovaLib/Classes/Private/CDVDebug.h"
+        },
+        {
+          'type': 'file',
+          'name': "CDVGestureHandler.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Cordova/CordovaLib/Classes/Private/Plugins/CDVGestureHandler/CDVGestureHandler.h"
+        },
+        {
+          'type': 'file',
+          'name': "CDVHandleOpenURL.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Cordova/CordovaLib/Classes/Private/Plugins/CDVHandleOpenURL/CDVHandleOpenURL.h"
+        },
+        {
+          'type': 'file',
+          'name': "CDVIntentAndNavigationFilter.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Cordova/CordovaLib/Classes/Private/Plugins/CDVIntentAndNavigationFilter/CDVIntentAndNavigationFilter.h"
+        },
+        {
+          'type': 'file',
+          'name': "CDVInvokedUrlCommand.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Cordova/CordovaLib/Classes/Public/CDVInvokedUrlCommand.h"
+        },
+        {
+          'type': 'file',
+          'name': "CDVJSON_private.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Cordova/CordovaLib/Classes/Private/CDVJSON_private.h"
+        },
+        {
+          'type': 'file',
+          'name': "CDVLocalStorage.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Cordova/CordovaLib/Classes/Private/Plugins/CDVLocalStorage/CDVLocalStorage.h"
+        },
+        {
+          'type': 'file',
+          'name': "CDVPlugin+Private.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Cordova/CordovaLib/Classes/Private/CDVPlugin+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "CDVPlugin+Resources.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Cordova/CordovaLib/Classes/Public/CDVPlugin+Resources.h"
+        },
+        {
+          'type': 'file',
+          'name': "CDVPlugin.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Cordova/CordovaLib/Classes/Public/CDVPlugin.h"
+        },
+        {
+          'type': 'file',
+          'name': "CDVPluginResult.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Cordova/CordovaLib/Classes/Public/CDVPluginResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "CDVScreenOrientationDelegate.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Cordova/CordovaLib/Classes/Public/CDVScreenOrientationDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "CDVTimer.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Cordova/CordovaLib/Classes/Public/CDVTimer.h"
+        },
+        {
+          'type': 'file',
+          'name': "CDVUIWebViewDelegate.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Cordova/CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "CDVUIWebViewEngine.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Cordova/CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewEngine.h"
+        },
+        {
+          'type': 'file',
+          'name': "CDVUIWebViewNavigationDelegate.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Cordova/CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewNavigationDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "CDVURLProtocol.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Cordova/CordovaLib/Classes/Public/CDVURLProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "CDVUserAgentUtil.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Cordova/CordovaLib/Classes/Public/CDVUserAgentUtil.h"
+        },
+        {
+          'type': 'file',
+          'name': "CDVViewController.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Cordova/CordovaLib/Classes/Public/CDVViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "CDVWebViewEngineProtocol.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Cordova/CordovaLib/Classes/Public/CDVWebViewEngineProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "CDVWhitelist.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Cordova/CordovaLib/Classes/Public/CDVWhitelist.h"
+        },
+        {
+          'type': 'file',
+          'name': "Cordova-Swift.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/Cordova-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Cordova-umbrella.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Target Support Files/Cordova/Cordova-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSDictionary+CordovaPreferences.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Cordova/CordovaLib/Classes/Public/NSDictionary+CordovaPreferences.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSMutableArray+QueueAdditions.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Cordova/CordovaLib/Classes/Public/NSMutableArray+QueueAdditions.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Pods.build/Debug-iphoneos/Cordova.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/CordovaPlugin-console/CordovaPlugin_console.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "CDVLogger.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/CordovaPlugin-console/src/ios/CDVLogger.h"
+        },
+        {
+          'type': 'file',
+          'name': "CordovaPlugin-console-umbrella.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Target Support Files/CordovaPlugin-console/CordovaPlugin-console-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "CordovaPlugin_console-Swift.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/CordovaPlugin-console/CordovaPlugin_console.framework/Headers/CordovaPlugin_console-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/CordovaPlugin-console/CordovaPlugin_console.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Pods.build/Debug-iphoneos/CordovaPlugin-console.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/DITranquillity/DITranquillity.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "DIStoryboardBase.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/DITranquillity/Sources/Storyboard/iOS-tvOS/DIStoryboardBase.h"
+        },
+        {
+          'type': 'file',
+          'name': "DITranquillity-Swift.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/DITranquillity/DITranquillity.framework/Headers/DITranquillity-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "DITranquillity-umbrella.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Target Support Files/DITranquillity/DITranquillity-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "DITranquillity.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/DITranquillity/Sources/DITranquillity.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/DITranquillity/DITranquillity.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Pods.build/Debug-iphoneos/DITranquillity.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Localize-Swift/Localize_Swift.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Localize-Swift-umbrella.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Target Support Files/Localize-Swift/Localize-Swift-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Localize_Swift-Swift.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Localize-Swift/Localize_Swift.framework/Headers/Localize_Swift-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Localize_Swift.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Localize-Swift/Sources/Localize_Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Localize-Swift/Localize_Swift.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Pods.build/Debug-iphoneos/Localize-Swift.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/MapsAPI/MapsAPI.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "MapsAPI-Swift.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/MapsAPI/MapsAPI.framework/Headers/MapsAPI-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "MapsAPI-umbrella.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Target Support Files/MapsAPI/MapsAPI-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/MapsAPI/MapsAPI.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Pods.build/Debug-iphoneos/MapsAPI.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ObjectMapper-Swift.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "ObjectMapper-umbrella.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Target Support Files/ObjectMapper/ObjectMapper-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Pods.build/Debug-iphoneos/ObjectMapper.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Pods_taxi.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-taxi-umbrella.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Target Support Files/Pods-taxi/Pods-taxi-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_taxi-Swift.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Pods_taxi.framework/Headers/Pods_taxi-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Pods_taxi.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Pods.build/Debug-iphoneos/Pods-taxi.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/RxAlamofire/RxAlamofire.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "RxAlamofire-Swift.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/RxAlamofire/RxAlamofire.framework/Headers/RxAlamofire-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "RxAlamofire-umbrella.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Target Support Files/RxAlamofire/RxAlamofire-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/RxAlamofire/RxAlamofire.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Pods.build/Debug-iphoneos/RxAlamofire.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/RxSwift/RxSwift.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "RxSwift-Swift.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "RxSwift-umbrella.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/RxSwift/RxSwift.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Pods.build/Debug-iphoneos/RxSwift.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SVIndefiniteAnimatedView.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/SVProgressHUD/SVProgressHUD/SVIndefiniteAnimatedView.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVProgressAnimatedView.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/SVProgressHUD/SVProgressHUD/SVProgressAnimatedView.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVProgressHUD-Swift.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVProgressHUD-umbrella.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Target Support Files/SVProgressHUD/SVProgressHUD-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVProgressHUD.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVRadialGradientLayer.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/SVProgressHUD/SVProgressHUD/SVRadialGradientLayer.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Pods.build/Debug-iphoneos/SVProgressHUD.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/SwiftHash/SwiftHash.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SwiftHash-Swift.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/SwiftHash/SwiftHash.framework/Headers/SwiftHash-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwiftHash-umbrella.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Target Support Files/SwiftHash/SwiftHash-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/SwiftHash/SwiftHash.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Pods.build/Debug-iphoneos/SwiftHash.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/cordova-plugin-device-motion/cordova_plugin_device_motion.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "CDVAccelerometer.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/cordova-plugin-device-motion/src/ios/CDVAccelerometer.h"
+        },
+        {
+          'type': 'file',
+          'name': "cordova-plugin-device-motion-umbrella.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Target Support Files/cordova-plugin-device-motion/cordova-plugin-device-motion-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "cordova_plugin_device_motion-Swift.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/cordova-plugin-device-motion/cordova_plugin_device_motion.framework/Headers/cordova_plugin_device_motion-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/cordova-plugin-device-motion/cordova_plugin_device_motion.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Pods.build/Debug-iphoneos/cordova-plugin-device-motion.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/cordova-plugin-device-orientation/cordova_plugin_device_orientation.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "CDVCompass.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/cordova-plugin-device-orientation/src/ios/CDVCompass.h"
+        },
+        {
+          'type': 'file',
+          'name': "cordova-plugin-device-orientation-umbrella.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Target Support Files/cordova-plugin-device-orientation/cordova-plugin-device-orientation-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "cordova_plugin_device_orientation-Swift.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/cordova-plugin-device-orientation/cordova_plugin_device_orientation.framework/Headers/cordova_plugin_device_orientation-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/cordova-plugin-device-orientation/cordova_plugin_device_orientation.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Pods.build/Debug-iphoneos/cordova-plugin-device-orientation.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/cordova-plugin-device/cordova_plugin_device.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "CDVDevice.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/cordova-plugin-device/src/ios/CDVDevice.h"
+        },
+        {
+          'type': 'file',
+          'name': "cordova-plugin-device-umbrella.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Target Support Files/cordova-plugin-device/cordova-plugin-device-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "cordova_plugin_device-Swift.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/cordova-plugin-device/cordova_plugin_device.framework/Headers/cordova_plugin_device-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/cordova-plugin-device/cordova_plugin_device.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Pods.build/Debug-iphoneos/cordova-plugin-device.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/cordova-plugin-file/cordova_plugin_file.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "CDVAssetLibraryFilesystem.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/cordova-plugin-file/src/ios/CDVAssetLibraryFilesystem.h"
+        },
+        {
+          'type': 'file',
+          'name': "CDVFile.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/cordova-plugin-file/src/ios/CDVFile.h"
+        },
+        {
+          'type': 'file',
+          'name': "CDVLocalFilesystem.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/cordova-plugin-file/src/ios/CDVLocalFilesystem.h"
+        },
+        {
+          'type': 'file',
+          'name': "cordova-plugin-file-umbrella.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Target Support Files/cordova-plugin-file/cordova-plugin-file-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "cordova_plugin_file-Swift.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/cordova-plugin-file/cordova_plugin_file.framework/Headers/cordova_plugin_file-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/cordova-plugin-file/cordova_plugin_file.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Pods.build/Debug-iphoneos/cordova-plugin-file.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/cordova-plugin-geolocation/cordova_plugin_geolocation.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "CDVLocation.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/cordova-plugin-geolocation/src/ios/CDVLocation.h"
+        },
+        {
+          'type': 'file',
+          'name': "cordova-plugin-geolocation-umbrella.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Target Support Files/cordova-plugin-geolocation/cordova-plugin-geolocation-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "cordova_plugin_geolocation-Swift.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/cordova-plugin-geolocation/cordova_plugin_geolocation.framework/Headers/cordova_plugin_geolocation-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/cordova-plugin-geolocation/cordova_plugin_geolocation.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Pods.build/Debug-iphoneos/cordova-plugin-geolocation.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/cordova-plugin-globalization/cordova_plugin_globalization.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "CDVGlobalization.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/cordova-plugin-globalization/src/ios/CDVGlobalization.h"
+        },
+        {
+          'type': 'file',
+          'name': "cordova-plugin-globalization-umbrella.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Target Support Files/cordova-plugin-globalization/cordova-plugin-globalization-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "cordova_plugin_globalization-Swift.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/cordova-plugin-globalization/cordova_plugin_globalization.framework/Headers/cordova_plugin_globalization-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/cordova-plugin-globalization/cordova_plugin_globalization.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Pods.build/Debug-iphoneos/cordova-plugin-globalization.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/cordova-plugin-network-information/cordova_plugin_network_information.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "CDVConnection.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/cordova-plugin-network-information/src/ios/CDVConnection.h"
+        },
+        {
+          'type': 'file',
+          'name': "CDVReachability.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/cordova-plugin-network-information/src/ios/CDVReachability.h"
+        },
+        {
+          'type': 'file',
+          'name': "cordova-plugin-network-information-umbrella.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Target Support Files/cordova-plugin-network-information/cordova-plugin-network-information-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "cordova_plugin_network_information-Swift.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/cordova-plugin-network-information/cordova_plugin_network_information.framework/Headers/cordova_plugin_network_information-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/cordova-plugin-network-information/cordova_plugin_network_information.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Pods.build/Debug-iphoneos/cordova-plugin-network-information.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/cordova-plugin-wkwebview-engine/cordova_plugin_wkwebview_engine.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "CDVWKWebViewEngine.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/cordova-plugin-wkwebview-engine/src/ios/CDVWKWebViewEngine.h"
+        },
+        {
+          'type': 'file',
+          'name': "CDVWKWebViewUIDelegate.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/cordova-plugin-wkwebview-engine/src/ios/CDVWKWebViewUIDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "cordova-plugin-wkwebview-engine-umbrella.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/Target Support Files/cordova-plugin-wkwebview-engine/cordova-plugin-wkwebview-engine-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "cordova_plugin_wkwebview_engine-Swift.h",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/cordova-plugin-wkwebview-engine/cordova_plugin_wkwebview_engine.framework/Headers/cordova_plugin_wkwebview_engine-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/cordova-plugin-wkwebview-engine/cordova_plugin_wkwebview_engine.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Pods.build/Debug-iphoneos/cordova-plugin-wkwebview-engine.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

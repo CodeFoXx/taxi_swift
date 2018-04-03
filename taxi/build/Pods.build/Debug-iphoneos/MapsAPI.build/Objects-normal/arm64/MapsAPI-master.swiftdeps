@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "f2d168728946bed702a96f76240c7af4"
+build_time: [1522664392, 483256000]
+inputs:
+  "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/MapsAPI/MapsAPI/Classes/MapsAPIViewController.swift": [1522660149, 0]

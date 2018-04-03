@@ -39,6 +39,8 @@ class MapViewController: MapsAPIViewController {
 //        // By default is taken from view controller name. I.e. "myMap" for MyMapViewController.
         self.jsFileName = "map"
         
+        
+        
         super.viewDidLoad()
     }
 }

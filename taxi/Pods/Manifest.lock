@@ -22,6 +22,11 @@ PODS:
   - CordovaPlugin-console (0.2.10):
     - Cordova (>= 3.0.0)
   - DITranquillity (3.2.0)
+  - GoogleMaps (2.6.0):
+    - GoogleMaps/Maps (= 2.6.0)
+  - GoogleMaps/Base (2.6.0)
+  - GoogleMaps/Maps (2.6.0):
+    - GoogleMaps/Base
   - Localize-Swift (2.0.0)
   - MapsAPI (0.0.1):
     - Cordova (~> 4.1.0)
@@ -47,6 +52,7 @@ PODS:
 DEPENDENCIES:
   - CodableAlamofire
   - DITranquillity
+  - GoogleMaps
   - Localize-Swift
   - MapsAPI
   - ObjectMapper
@@ -68,6 +74,7 @@ SPEC CHECKSUMS:
   cordova-plugin-wkwebview-engine: d07b627d9d0cfcc4276671cddb3bb7b6a842e67c
   CordovaPlugin-console: aeb6015a9830edaaf8158a6b49f18189ebf38aa5
   DITranquillity: c3baa52749152e743f44c75fc28b0a746b31ea29
+  GoogleMaps: 42f91c68b7fa2f84d5c86597b18ceb99f5414c7f
   Localize-Swift: c798ec9286494866f7068f85f7c71283ac5bdab4
   MapsAPI: 486084340a7ea19852a7366bea3b3c8d10bba166
   ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
@@ -76,6 +83,6 @@ SPEC CHECKSUMS:
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   SwiftHash: c805de5a434eacfa0dac7210745a50c55d7fe33d
 
-PODFILE CHECKSUM: 865654a01401e2c7e7956784bd67a4e50562c159
+PODFILE CHECKSUM: ae07488ea89e42d6f9eb38c05d64663860a97457
 
-COCOAPODS: 1.4.0.beta.2
+COCOAPODS: 1.4.0

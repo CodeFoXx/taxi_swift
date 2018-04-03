@@ -1,0 +1,399 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MapViewController"
+provides-nominal:
+- "4taxi17MapViewControllerC"
+provides-member:
+- ["4taxi17MapViewControllerC", ""]
+provides-dynamic-lookup:
+- "viewDidLoad"
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "MapPresenter"
+- "MapView"
+- "MapViewController"
+- "MapsAPIViewController"
+- !private "StringLiteralType"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["So28CDVScreenOrientationDelegateP", "apiParams"]
+- !private ["So28CDVScreenOrientationDelegateP", "apiVersion"]
+- !private ["So28CDVScreenOrientationDelegateP", "init"]
+- !private ["So28CDVScreenOrientationDelegateP", "jsFileName"]
+- !private ["So28CDVScreenOrientationDelegateP", "viewDidLoad"]
+- ["So28CDVScreenOrientationDelegateP", ""]
+- ["So17CDVViewControllerC", "Bool"]
+- ["So17CDVViewControllerC", "MapPresenter"]
+- !private ["So17CDVViewControllerC", "apiParams"]
+- !private ["So17CDVViewControllerC", "apiVersion"]
+- ["So17CDVViewControllerC", "init"]
+- !private ["So17CDVViewControllerC", "jsFileName"]
+- ["So17CDVViewControllerC", "prefersStatusBarHidden"]
+- ["So17CDVViewControllerC", "presenter"]
+- ["So17CDVViewControllerC", "viewDidLoad"]
+- !private ["s7CVarArgP", "apiParams"]
+- !private ["s7CVarArgP", "apiVersion"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "jsFileName"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "apiParams"]
+- !private ["s28CustomDebugStringConvertibleP", "apiVersion"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "jsFileName"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "apiParams"]
+- !private ["s23CustomStringConvertibleP", "apiVersion"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "jsFileName"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "apiParams"]
+- !private ["s9EquatableP", "apiVersion"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "jsFileName"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- ["s9EquatableP", ""]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "apiParams"]
+- !private ["s8HashableP", "apiVersion"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "jsFileName"]
+- !private ["s8HashableP", "viewDidLoad"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["4taxi7MapViewP", "apiParams"]
+- !private ["4taxi7MapViewP", "apiVersion"]
+- !private ["4taxi7MapViewP", "jsFileName"]
+- ["4taxi7MapViewP", ""]
+- ["4taxi17MapViewControllerC", "Bool"]
+- ["4taxi17MapViewControllerC", "MapPresenter"]
+- !private ["4taxi17MapViewControllerC", "apiParams"]
+- !private ["4taxi17MapViewControllerC", "apiVersion"]
+- ["4taxi17MapViewControllerC", "deinit"]
+- ["4taxi17MapViewControllerC", "init"]
+- !private ["4taxi17MapViewControllerC", "jsFileName"]
+- ["4taxi17MapViewControllerC", "prefersStatusBarHidden"]
+- ["4taxi17MapViewControllerC", "presenter"]
+- ["4taxi17MapViewControllerC", "viewDidLoad"]
+- ["7MapsAPI0A17APIViewControllerC", "Bool"]
+- ["7MapsAPI0A17APIViewControllerC", "MapPresenter"]
+- !private ["7MapsAPI0A17APIViewControllerC", "apiParams"]
+- !private ["7MapsAPI0A17APIViewControllerC", "apiVersion"]
+- ["7MapsAPI0A17APIViewControllerC", "init"]
+- !private ["7MapsAPI0A17APIViewControllerC", "jsFileName"]
+- ["7MapsAPI0A17APIViewControllerC", "prefersStatusBarHidden"]
+- ["7MapsAPI0A17APIViewControllerC", "presenter"]
+- ["7MapsAPI0A17APIViewControllerC", "viewDidLoad"]
+- ["7MapsAPI0A17APIViewControllerC", ""]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "apiParams"]
+- !private ["So8NSCodingP", "apiVersion"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "jsFileName"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "apiParams"]
+- !private ["So26NSExtensionRequestHandlingP", "apiVersion"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "jsFileName"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "MapPresenter"]
+- !private ["So8NSObjectC", "apiParams"]
+- !private ["So8NSObjectC", "apiVersion"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "jsFileName"]
+- ["So8NSObjectC", "prefersStatusBarHidden"]
+- ["So8NSObjectC", "presenter"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "apiParams"]
+- !private ["So16NSObjectProtocolP", "apiVersion"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "jsFileName"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So21UIAppearanceContainerP", "apiParams"]
+- !private ["So21UIAppearanceContainerP", "apiVersion"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "jsFileName"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So18UIContentContainerP", "apiParams"]
+- !private ["So18UIContentContainerP", "apiVersion"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "jsFileName"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIFocusEnvironmentP", "apiParams"]
+- !private ["So18UIFocusEnvironmentP", "apiVersion"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "jsFileName"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "apiParams"]
+- !private ["So30UIPasteConfigurationSupportingP", "apiVersion"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "jsFileName"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "MapPresenter"]
+- !private ["So11UIResponderC", "apiParams"]
+- !private ["So11UIResponderC", "apiVersion"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "jsFileName"]
+- ["So11UIResponderC", "prefersStatusBarHidden"]
+- ["So11UIResponderC", "presenter"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "apiParams"]
+- !private ["So30UIResponderStandardEditActionsP", "apiVersion"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "jsFileName"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So16UIStateRestoringP", "apiParams"]
+- !private ["So16UIStateRestoringP", "apiVersion"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "jsFileName"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So18UITraitEnvironmentP", "apiParams"]
+- !private ["So18UITraitEnvironmentP", "apiVersion"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "jsFileName"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So16UIViewControllerC", "Bool"]
+- ["So16UIViewControllerC", "MapPresenter"]
+- !private ["So16UIViewControllerC", "apiParams"]
+- !private ["So16UIViewControllerC", "apiVersion"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "jsFileName"]
+- ["So16UIViewControllerC", "prefersStatusBarHidden"]
+- ["So16UIViewControllerC", "presenter"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "apiParams"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "apiVersion"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jsFileName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- "So28CDVScreenOrientationDelegateP"
+- "So17CDVViewControllerC"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- "4taxi7MapViewP"
+- "4taxi17MapViewControllerC"
+- "7MapsAPI0A17APIViewControllerC"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So16UIViewControllerC"
+- !private "s23_BidirectionalIndexableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/MapsAPI/MapsAPI.framework/Modules/MapsAPI.swiftmodule/arm64.swiftmodule"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/DITranquillity/DITranquillity.framework/Modules/DITranquillity.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVHandleOpenURL.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDV.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/MapsAPI/MapsAPI.framework/Headers/MapsAPI-umbrella.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/Cordova-umbrella.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/DITranquillity/DITranquillity.framework/Headers/DITranquillity-umbrella.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanorama.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCamera.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVAvailabilityDeprecated.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVInvokedUrlCommand.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaService.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaSource.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVLocalStorage.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCircle.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapStyle.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVUIWebViewEngine.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolyline.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/DITranquillity/DITranquillity.framework/Headers/DIStoryboardBase.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GoogleMapsBase.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraUpdate.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVCommandDelegate.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVUIWebViewNavigationDelegate.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVScreenOrientationDelegate.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVAppDelegate.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVUIWebViewDelegate.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVPlugin+Private.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVJSON_private.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVCommandQueue.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorBuilding.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVDebug.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPath.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMutablePath.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLink.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorLevel.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVUserAgentUtil.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVURLProtocol.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVWebViewEngineProtocol.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVCommandDelegateImpl.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVPlugin.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygon.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView+Animation.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOrientation.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSProjection.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraPosition.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeocoder.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarker.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVGestureHandler.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVViewController.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVTimer.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVConfigParser.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVIntentAndNavigationFilter.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCALayer.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLayer.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSURLTileLayer.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSTileLayer.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSSyncTileLayer.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapLayer.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarkerLayer.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCoordinateBounds.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSServices.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/NSDictionary+CordovaPreferences.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVPlugin+Resources.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSUISettings.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeometryUtils.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/NSMutableArray+QueueAdditions.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSDeprecationMacros.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCompatabilityMacros.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCoordinateBounds+GoogleMaps.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSAddress.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/MapsAPI/MapsAPI.framework/Headers/MapsAPI-Swift.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/DITranquillity/DITranquillity.framework/Headers/DITranquillity-Swift.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVPluginResult.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVWhitelist.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaView.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorDisplay.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlay.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGroundOverlay.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVAvailability.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/DITranquillity/DITranquillity.framework/Headers/DITranquillity.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/MapsAPI/MapsAPI.framework/Modules/module.modulemap"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Modules/module.modulemap"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Modules/module.modulemap"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Modules/module.modulemap"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/DITranquillity/DITranquillity.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+interface-hash: "174ac25cb59701a697fe563c2b51944e"

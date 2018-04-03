@@ -1,5 +1,6 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
+- "googleApiKey"
 - "AppDelegate"
 provides-nominal:
 - "4taxi11AppDelegateC"
@@ -14,18 +15,44 @@ provides-dynamic-lookup:
 - "applicationWillTerminate"
 - "window"
 depends-top-level:
+- !private "!"
+- !private "*"
+- !private "AppDIPart"
 - "AppDelegate"
+- "AssignmentPrecedence"
 - "Bool"
 - !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "DIContainer"
+- !private "GMSServices"
+- !private "GoogleMapDIPart"
+- !private "MainDIPart"
+- !private "MainViewController"
+- !private "MapDIPart"
+- !private "NetworkDIPart"
+- "StringLiteralType"
 - "UIApplication"
 - "UIApplicationDelegate"
 - "UIApplicationLaunchOptionsKey"
+- !private "UINavigationController"
 - "UIResponder"
 - "UIWindow"
+- !private "fatalError"
+- "googleApiKey"
 depends-member:
+- !private ["4taxi9AppDIPartC", "deinit"]
+- !private ["4taxi11AppDelegateC", "AppDIPart"]
 - ["4taxi11AppDelegateC", "Bool"]
+- ["4taxi11AppDelegateC", "DIContainer"]
+- !private ["4taxi11AppDelegateC", "GMSServices"]
+- !private ["4taxi11AppDelegateC", "GoogleMapDIPart"]
+- !private ["4taxi11AppDelegateC", "MainDIPart"]
+- !private ["4taxi11AppDelegateC", "MainViewController"]
+- !private ["4taxi11AppDelegateC", "MapDIPart"]
+- !private ["4taxi11AppDelegateC", "NetworkDIPart"]
 - ["4taxi11AppDelegateC", "UIApplication"]
 - ["4taxi11AppDelegateC", "UIApplicationLaunchOptionsKey"]
+- !private ["4taxi11AppDelegateC", "UINavigationController"]
 - ["4taxi11AppDelegateC", "UIWindow"]
 - ["4taxi11AppDelegateC", "application"]
 - ["4taxi11AppDelegateC", "applicationDidBecomeActive"]
@@ -39,9 +66,27 @@ depends-member:
 - ["4taxi11AppDelegateC", "applicationWillEnterForeground"]
 - ["4taxi11AppDelegateC", "applicationWillResignActive"]
 - ["4taxi11AppDelegateC", "applicationWillTerminate"]
+- ["4taxi11AppDelegateC", "buildDependencyComponent"]
+- ["4taxi11AppDelegateC", "container"]
 - ["4taxi11AppDelegateC", "deinit"]
+- !private ["4taxi11AppDelegateC", "fatalError"]
+- !private ["4taxi11AppDelegateC", "googleApiKey"]
 - ["4taxi11AppDelegateC", "init"]
+- ["4taxi11AppDelegateC", "setupRootViewController"]
 - ["4taxi11AppDelegateC", "window"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "isHidden"]
+- !private ["So15CALayerDelegateP", "makeKeyAndVisible"]
+- !private ["So15CALayerDelegateP", "rootViewController"]
+- !private ["s7CVarArgP", "AppDIPart"]
+- !private ["s7CVarArgP", "DIContainer"]
+- !private ["s7CVarArgP", "GMSServices"]
+- !private ["s7CVarArgP", "GoogleMapDIPart"]
+- !private ["s7CVarArgP", "MainDIPart"]
+- !private ["s7CVarArgP", "MapDIPart"]
+- !private ["s7CVarArgP", "NetworkDIPart"]
+- !private ["s7CVarArgP", "UINavigationController"]
 - ["s7CVarArgP", "application"]
 - ["s7CVarArgP", "applicationDidBecomeActive"]
 - ["s7CVarArgP", "applicationDidEnterBackground"]
@@ -54,9 +99,29 @@ depends-member:
 - ["s7CVarArgP", "applicationWillEnterForeground"]
 - ["s7CVarArgP", "applicationWillResignActive"]
 - ["s7CVarArgP", "applicationWillTerminate"]
-- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "buildDependencyComponent"]
+- !private ["s7CVarArgP", "container"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "googleApiKey"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isHidden"]
+- !private ["s7CVarArgP", "makeKeyAndVisible"]
+- !private ["s7CVarArgP", "navigationBar"]
+- !private ["s7CVarArgP", "provideAPIKey"]
+- !private ["s7CVarArgP", "rootViewController"]
+- !private ["s7CVarArgP", "setupRootViewController"]
 - ["s7CVarArgP", "window"]
 - ["s7CVarArgP", ""]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "AppDIPart"]
+- !private ["s28CustomDebugStringConvertibleP", "DIContainer"]
+- !private ["s28CustomDebugStringConvertibleP", "GMSServices"]
+- !private ["s28CustomDebugStringConvertibleP", "GoogleMapDIPart"]
+- !private ["s28CustomDebugStringConvertibleP", "MainDIPart"]
+- !private ["s28CustomDebugStringConvertibleP", "MapDIPart"]
+- !private ["s28CustomDebugStringConvertibleP", "NetworkDIPart"]
+- !private ["s28CustomDebugStringConvertibleP", "UINavigationController"]
 - ["s28CustomDebugStringConvertibleP", "application"]
 - ["s28CustomDebugStringConvertibleP", "applicationDidBecomeActive"]
 - ["s28CustomDebugStringConvertibleP", "applicationDidEnterBackground"]
@@ -69,9 +134,32 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "applicationWillEnterForeground"]
 - ["s28CustomDebugStringConvertibleP", "applicationWillResignActive"]
 - ["s28CustomDebugStringConvertibleP", "applicationWillTerminate"]
-- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "buildDependencyComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "container"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "googleApiKey"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isHidden"]
+- !private ["s28CustomDebugStringConvertibleP", "makeKeyAndVisible"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationBar"]
+- !private ["s28CustomDebugStringConvertibleP", "provideAPIKey"]
+- !private ["s28CustomDebugStringConvertibleP", "rootViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "setupRootViewController"]
 - ["s28CustomDebugStringConvertibleP", "window"]
 - ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "AppDIPart"]
+- !private ["s23CustomStringConvertibleP", "DIContainer"]
+- !private ["s23CustomStringConvertibleP", "GMSServices"]
+- !private ["s23CustomStringConvertibleP", "GoogleMapDIPart"]
+- !private ["s23CustomStringConvertibleP", "MainDIPart"]
+- !private ["s23CustomStringConvertibleP", "MapDIPart"]
+- !private ["s23CustomStringConvertibleP", "NetworkDIPart"]
+- !private ["s23CustomStringConvertibleP", "UINavigationController"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - ["s23CustomStringConvertibleP", "application"]
 - ["s23CustomStringConvertibleP", "applicationDidBecomeActive"]
 - ["s23CustomStringConvertibleP", "applicationDidEnterBackground"]
@@ -84,9 +172,35 @@ depends-member:
 - ["s23CustomStringConvertibleP", "applicationWillEnterForeground"]
 - ["s23CustomStringConvertibleP", "applicationWillResignActive"]
 - ["s23CustomStringConvertibleP", "applicationWillTerminate"]
-- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "buildDependencyComponent"]
+- !private ["s23CustomStringConvertibleP", "container"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "googleApiKey"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isHidden"]
+- !private ["s23CustomStringConvertibleP", "makeKeyAndVisible"]
+- !private ["s23CustomStringConvertibleP", "navigationBar"]
+- !private ["s23CustomStringConvertibleP", "provideAPIKey"]
+- !private ["s23CustomStringConvertibleP", "rootViewController"]
+- !private ["s23CustomStringConvertibleP", "setupRootViewController"]
 - ["s23CustomStringConvertibleP", "window"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["14DITranquillity11DIContainerC", "append"]
+- !private ["14DITranquillity11DIContainerC", "init"]
+- !private ["14DITranquillity11DIContainerC", "validate"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "AppDIPart"]
+- !private ["s9EquatableP", "DIContainer"]
+- !private ["s9EquatableP", "GMSServices"]
+- !private ["s9EquatableP", "GoogleMapDIPart"]
+- !private ["s9EquatableP", "MainDIPart"]
+- !private ["s9EquatableP", "MapDIPart"]
+- !private ["s9EquatableP", "NetworkDIPart"]
+- !private ["s9EquatableP", "UINavigationController"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - ["s9EquatableP", "application"]
 - ["s9EquatableP", "applicationDidBecomeActive"]
 - ["s9EquatableP", "applicationDidEnterBackground"]
@@ -99,9 +213,34 @@ depends-member:
 - ["s9EquatableP", "applicationWillEnterForeground"]
 - ["s9EquatableP", "applicationWillResignActive"]
 - ["s9EquatableP", "applicationWillTerminate"]
-- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "buildDependencyComponent"]
+- !private ["s9EquatableP", "container"]
+- !private ["s9EquatableP", "fatalError"]
+- !private ["s9EquatableP", "googleApiKey"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isHidden"]
+- !private ["s9EquatableP", "makeKeyAndVisible"]
+- !private ["s9EquatableP", "navigationBar"]
+- !private ["s9EquatableP", "provideAPIKey"]
+- !private ["s9EquatableP", "rootViewController"]
+- !private ["s9EquatableP", "setupRootViewController"]
 - ["s9EquatableP", "window"]
 - ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So11GMSServicesC", "provideAPIKey"]
+- !private ["4taxi15GoogleMapDIPartC", "deinit"]
+- !private ["s8HashableP", "AppDIPart"]
+- !private ["s8HashableP", "DIContainer"]
+- !private ["s8HashableP", "GMSServices"]
+- !private ["s8HashableP", "GoogleMapDIPart"]
+- !private ["s8HashableP", "MainDIPart"]
+- !private ["s8HashableP", "MapDIPart"]
+- !private ["s8HashableP", "NetworkDIPart"]
+- !private ["s8HashableP", "UINavigationController"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
 - ["s8HashableP", "application"]
 - ["s8HashableP", "applicationDidBecomeActive"]
 - ["s8HashableP", "applicationDidEnterBackground"]
@@ -114,12 +253,47 @@ depends-member:
 - ["s8HashableP", "applicationWillEnterForeground"]
 - ["s8HashableP", "applicationWillResignActive"]
 - ["s8HashableP", "applicationWillTerminate"]
-- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "buildDependencyComponent"]
+- !private ["s8HashableP", "container"]
+- !private ["s8HashableP", "fatalError"]
+- !private ["s8HashableP", "googleApiKey"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "isHidden"]
+- !private ["s8HashableP", "makeKeyAndVisible"]
+- !private ["s8HashableP", "navigationBar"]
+- !private ["s8HashableP", "provideAPIKey"]
+- !private ["s8HashableP", "rootViewController"]
+- !private ["s8HashableP", "setupRootViewController"]
 - ["s8HashableP", "window"]
 - ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["4taxi10MainDIPartC", "deinit"]
+- !private ["4taxi9MapDIPartC", "deinit"]
+- ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isHidden"]
+- !private ["So8NSCodingP", "makeKeyAndVisible"]
+- !private ["So8NSCodingP", "navigationBar"]
+- !private ["So8NSCodingP", "rootViewController"]
+- ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationBar"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "AppDIPart"]
 - ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "DIContainer"]
+- !private ["So8NSObjectC", "GMSServices"]
+- !private ["So8NSObjectC", "GoogleMapDIPart"]
+- !private ["So8NSObjectC", "MainDIPart"]
+- !private ["So8NSObjectC", "MainViewController"]
+- !private ["So8NSObjectC", "MapDIPart"]
+- !private ["So8NSObjectC", "NetworkDIPart"]
 - ["So8NSObjectC", "UIApplication"]
 - ["So8NSObjectC", "UIApplicationLaunchOptionsKey"]
+- !private ["So8NSObjectC", "UINavigationController"]
 - ["So8NSObjectC", "UIWindow"]
 - ["So8NSObjectC", "application"]
 - ["So8NSObjectC", "applicationDidBecomeActive"]
@@ -133,8 +307,26 @@ depends-member:
 - ["So8NSObjectC", "applicationWillEnterForeground"]
 - ["So8NSObjectC", "applicationWillResignActive"]
 - ["So8NSObjectC", "applicationWillTerminate"]
+- ["So8NSObjectC", "buildDependencyComponent"]
+- ["So8NSObjectC", "container"]
+- !private ["So8NSObjectC", "fatalError"]
+- !private ["So8NSObjectC", "googleApiKey"]
 - ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isHidden"]
+- !private ["So8NSObjectC", "makeKeyAndVisible"]
+- !private ["So8NSObjectC", "navigationBar"]
+- !private ["So8NSObjectC", "provideAPIKey"]
+- !private ["So8NSObjectC", "rootViewController"]
+- ["So8NSObjectC", "setupRootViewController"]
 - ["So8NSObjectC", "window"]
+- !private ["So16NSObjectProtocolP", "AppDIPart"]
+- !private ["So16NSObjectProtocolP", "DIContainer"]
+- !private ["So16NSObjectProtocolP", "GMSServices"]
+- !private ["So16NSObjectProtocolP", "GoogleMapDIPart"]
+- !private ["So16NSObjectProtocolP", "MainDIPart"]
+- !private ["So16NSObjectProtocolP", "MapDIPart"]
+- !private ["So16NSObjectProtocolP", "NetworkDIPart"]
+- !private ["So16NSObjectProtocolP", "UINavigationController"]
 - ["So16NSObjectProtocolP", "application"]
 - ["So16NSObjectProtocolP", "applicationDidBecomeActive"]
 - ["So16NSObjectProtocolP", "applicationDidEnterBackground"]
@@ -147,9 +339,48 @@ depends-member:
 - ["So16NSObjectProtocolP", "applicationWillEnterForeground"]
 - ["So16NSObjectProtocolP", "applicationWillResignActive"]
 - ["So16NSObjectProtocolP", "applicationWillTerminate"]
-- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "buildDependencyComponent"]
+- !private ["So16NSObjectProtocolP", "container"]
+- !private ["So16NSObjectProtocolP", "fatalError"]
+- !private ["So16NSObjectProtocolP", "googleApiKey"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isHidden"]
+- !private ["So16NSObjectProtocolP", "makeKeyAndVisible"]
+- !private ["So16NSObjectProtocolP", "navigationBar"]
+- !private ["So16NSObjectProtocolP", "provideAPIKey"]
+- !private ["So16NSObjectProtocolP", "rootViewController"]
+- !private ["So16NSObjectProtocolP", "setupRootViewController"]
 - ["So16NSObjectProtocolP", "window"]
 - ["So16NSObjectProtocolP", ""]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- !private ["4taxi13NetworkDIPartC", "deinit"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s8SequenceP", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "isHidden"]
+- !private ["So29UIAccessibilityIdentificationP", "makeKeyAndVisible"]
+- !private ["So29UIAccessibilityIdentificationP", "rootViewController"]
+- !private ["So12UIAppearanceP", "isHidden"]
+- !private ["So12UIAppearanceP", "makeKeyAndVisible"]
+- !private ["So12UIAppearanceP", "rootViewController"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isHidden"]
+- !private ["So21UIAppearanceContainerP", "makeKeyAndVisible"]
+- !private ["So21UIAppearanceContainerP", "navigationBar"]
+- !private ["So21UIAppearanceContainerP", "rootViewController"]
+- !private ["So21UIApplicationDelegateP", "AppDIPart"]
+- !private ["So21UIApplicationDelegateP", "DIContainer"]
+- !private ["So21UIApplicationDelegateP", "GMSServices"]
+- !private ["So21UIApplicationDelegateP", "GoogleMapDIPart"]
+- !private ["So21UIApplicationDelegateP", "MainDIPart"]
+- !private ["So21UIApplicationDelegateP", "MapDIPart"]
+- !private ["So21UIApplicationDelegateP", "NetworkDIPart"]
+- !private ["So21UIApplicationDelegateP", "UINavigationController"]
 - ["So21UIApplicationDelegateP", "application"]
 - ["So21UIApplicationDelegateP", "applicationDidBecomeActive"]
 - ["So21UIApplicationDelegateP", "applicationDidEnterBackground"]
@@ -162,8 +393,41 @@ depends-member:
 - ["So21UIApplicationDelegateP", "applicationWillEnterForeground"]
 - ["So21UIApplicationDelegateP", "applicationWillResignActive"]
 - ["So21UIApplicationDelegateP", "applicationWillTerminate"]
+- !private ["So21UIApplicationDelegateP", "buildDependencyComponent"]
+- !private ["So21UIApplicationDelegateP", "container"]
+- !private ["So21UIApplicationDelegateP", "fatalError"]
+- !private ["So21UIApplicationDelegateP", "googleApiKey"]
+- !private ["So21UIApplicationDelegateP", "setupRootViewController"]
 - ["So21UIApplicationDelegateP", "window"]
 - ["So21UIApplicationDelegateP", ""]
+- !private ["So16UIBarPositioningP", "isHidden"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "navigationBar"]
+- !private ["So17UICoordinateSpaceP", "isHidden"]
+- !private ["So17UICoordinateSpaceP", "makeKeyAndVisible"]
+- !private ["So17UICoordinateSpaceP", "rootViewController"]
+- !private ["So13UIDynamicItemP", "isHidden"]
+- !private ["So13UIDynamicItemP", "makeKeyAndVisible"]
+- !private ["So13UIDynamicItemP", "rootViewController"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isHidden"]
+- !private ["So18UIFocusEnvironmentP", "makeKeyAndVisible"]
+- !private ["So18UIFocusEnvironmentP", "navigationBar"]
+- !private ["So18UIFocusEnvironmentP", "rootViewController"]
+- !private ["So11UIFocusItemP", "isHidden"]
+- !private ["So11UIFocusItemP", "makeKeyAndVisible"]
+- !private ["So11UIFocusItemP", "rootViewController"]
+- !private ["So15UINavigationBarC", "isHidden"]
+- !private ["So22UINavigationControllerC", "init"]
+- !private ["So22UINavigationControllerC", "navigationBar"]
+- !private ["So30UIPasteConfigurationSupportingP", "AppDIPart"]
+- !private ["So30UIPasteConfigurationSupportingP", "DIContainer"]
+- !private ["So30UIPasteConfigurationSupportingP", "GMSServices"]
+- !private ["So30UIPasteConfigurationSupportingP", "GoogleMapDIPart"]
+- !private ["So30UIPasteConfigurationSupportingP", "MainDIPart"]
+- !private ["So30UIPasteConfigurationSupportingP", "MapDIPart"]
+- !private ["So30UIPasteConfigurationSupportingP", "NetworkDIPart"]
+- !private ["So30UIPasteConfigurationSupportingP", "UINavigationController"]
 - ["So30UIPasteConfigurationSupportingP", "application"]
 - ["So30UIPasteConfigurationSupportingP", "applicationDidBecomeActive"]
 - ["So30UIPasteConfigurationSupportingP", "applicationDidEnterBackground"]
@@ -176,12 +440,30 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "applicationWillEnterForeground"]
 - ["So30UIPasteConfigurationSupportingP", "applicationWillResignActive"]
 - ["So30UIPasteConfigurationSupportingP", "applicationWillTerminate"]
+- !private ["So30UIPasteConfigurationSupportingP", "buildDependencyComponent"]
+- !private ["So30UIPasteConfigurationSupportingP", "container"]
+- !private ["So30UIPasteConfigurationSupportingP", "fatalError"]
+- !private ["So30UIPasteConfigurationSupportingP", "googleApiKey"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isHidden"]
+- !private ["So30UIPasteConfigurationSupportingP", "makeKeyAndVisible"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationBar"]
+- !private ["So30UIPasteConfigurationSupportingP", "rootViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "setupRootViewController"]
 - ["So30UIPasteConfigurationSupportingP", "window"]
 - ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So11UIResponderC", "AppDIPart"]
 - ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "DIContainer"]
+- !private ["So11UIResponderC", "GMSServices"]
+- !private ["So11UIResponderC", "GoogleMapDIPart"]
+- !private ["So11UIResponderC", "MainDIPart"]
+- !private ["So11UIResponderC", "MainViewController"]
+- !private ["So11UIResponderC", "MapDIPart"]
+- !private ["So11UIResponderC", "NetworkDIPart"]
 - ["So11UIResponderC", "UIApplication"]
 - ["So11UIResponderC", "UIApplicationLaunchOptionsKey"]
+- !private ["So11UIResponderC", "UINavigationController"]
 - ["So11UIResponderC", "UIWindow"]
 - ["So11UIResponderC", "application"]
 - ["So11UIResponderC", "applicationDidBecomeActive"]
@@ -195,9 +477,26 @@ depends-member:
 - ["So11UIResponderC", "applicationWillEnterForeground"]
 - ["So11UIResponderC", "applicationWillResignActive"]
 - ["So11UIResponderC", "applicationWillTerminate"]
+- ["So11UIResponderC", "buildDependencyComponent"]
+- ["So11UIResponderC", "container"]
+- !private ["So11UIResponderC", "fatalError"]
+- !private ["So11UIResponderC", "googleApiKey"]
 - ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isHidden"]
+- !private ["So11UIResponderC", "makeKeyAndVisible"]
+- !private ["So11UIResponderC", "navigationBar"]
+- !private ["So11UIResponderC", "rootViewController"]
+- ["So11UIResponderC", "setupRootViewController"]
 - ["So11UIResponderC", "window"]
 - ["So11UIResponderC", ""]
+- !private ["So30UIResponderStandardEditActionsP", "AppDIPart"]
+- !private ["So30UIResponderStandardEditActionsP", "DIContainer"]
+- !private ["So30UIResponderStandardEditActionsP", "GMSServices"]
+- !private ["So30UIResponderStandardEditActionsP", "GoogleMapDIPart"]
+- !private ["So30UIResponderStandardEditActionsP", "MainDIPart"]
+- !private ["So30UIResponderStandardEditActionsP", "MapDIPart"]
+- !private ["So30UIResponderStandardEditActionsP", "NetworkDIPart"]
+- !private ["So30UIResponderStandardEditActionsP", "UINavigationController"]
 - ["So30UIResponderStandardEditActionsP", "application"]
 - ["So30UIResponderStandardEditActionsP", "applicationDidBecomeActive"]
 - ["So30UIResponderStandardEditActionsP", "applicationDidEnterBackground"]
@@ -210,9 +509,53 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "applicationWillEnterForeground"]
 - ["So30UIResponderStandardEditActionsP", "applicationWillResignActive"]
 - ["So30UIResponderStandardEditActionsP", "applicationWillTerminate"]
+- !private ["So30UIResponderStandardEditActionsP", "buildDependencyComponent"]
+- !private ["So30UIResponderStandardEditActionsP", "container"]
+- !private ["So30UIResponderStandardEditActionsP", "fatalError"]
+- !private ["So30UIResponderStandardEditActionsP", "googleApiKey"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isHidden"]
+- !private ["So30UIResponderStandardEditActionsP", "makeKeyAndVisible"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationBar"]
+- !private ["So30UIResponderStandardEditActionsP", "rootViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "setupRootViewController"]
 - ["So30UIResponderStandardEditActionsP", "window"]
 - ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "navigationBar"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isHidden"]
+- !private ["So18UITraitEnvironmentP", "makeKeyAndVisible"]
+- !private ["So18UITraitEnvironmentP", "navigationBar"]
+- !private ["So18UITraitEnvironmentP", "rootViewController"]
+- !private ["So6UIViewC", "isHidden"]
+- !private ["So6UIViewC", "makeKeyAndVisible"]
+- !private ["So6UIViewC", "rootViewController"]
+- !private ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "navigationBar"]
+- !private ["So8UIWindowC", "makeKeyAndVisible"]
+- !private ["So8UIWindowC", "rootViewController"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isHidden"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "makeKeyAndVisible"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "rootViewController"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s10_IndexableP", "init"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AppDIPart"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DIContainer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "GMSServices"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "GoogleMapDIPart"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MainDIPart"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MapDIPart"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NetworkDIPart"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UINavigationController"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "application"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidBecomeActive"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidEnterBackground"]
@@ -225,36 +568,207 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillEnterForeground"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillResignActive"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillTerminate"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "buildDependencyComponent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "container"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "googleApiKey"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isHidden"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "makeKeyAndVisible"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationBar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "provideAPIKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rootViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupRootViewController"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "window"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
 depends-nominal:
+- !private "4taxi9AppDIPartC"
 - "4taxi11AppDelegateC"
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
 - "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
 - "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
+- !private "14DITranquillity11DIContainerC"
+- "s9DecodableP"
+- "s9EncodableP"
 - "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So11GMSServicesC"
+- !private "4taxi15GoogleMapDIPartC"
 - "s8HashableP"
+- "s25LosslessStringConvertibleP"
+- !private "4taxi10MainDIPartC"
+- !private "4taxi9MapDIPartC"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- !private "So26NSExtensionRequestHandlingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- !private "4taxi13NetworkDIPartC"
+- "s26RangeReplaceableCollectionP"
+- "s8SequenceP"
+- !private "s12StaticStringV"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
 - "So21UIApplicationDelegateP"
+- !private "So16UIBarPositioningP"
+- !private "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So15UINavigationBarC"
+- !private "So22UINavigationControllerC"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
+- !private "So16UIStateRestoringP"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "So16UIViewControllerC"
+- !private "So8UIWindowC"
+- "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
 - "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s26_RangeReplaceableIndexableP"
+- "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/MapsAPI/MapsAPI.framework/Modules/MapsAPI.swiftmodule/arm64.swiftmodule"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/DITranquillity/DITranquillity.framework/Modules/DITranquillity.swiftmodule/arm64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "b306772a10463f7c5fce689aa6452f8e"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVHandleOpenURL.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDV.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/MapsAPI/MapsAPI.framework/Headers/MapsAPI-umbrella.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/Cordova-umbrella.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/DITranquillity/DITranquillity.framework/Headers/DITranquillity-umbrella.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanorama.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCamera.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVAvailabilityDeprecated.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVInvokedUrlCommand.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaService.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaSource.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVLocalStorage.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCircle.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapStyle.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVUIWebViewEngine.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolyline.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/DITranquillity/DITranquillity.framework/Headers/DIStoryboardBase.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GoogleMapsBase.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraUpdate.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVCommandDelegate.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVUIWebViewNavigationDelegate.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVScreenOrientationDelegate.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVAppDelegate.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVUIWebViewDelegate.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVPlugin+Private.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVJSON_private.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVCommandQueue.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorBuilding.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVDebug.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPath.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMutablePath.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLink.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorLevel.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVUserAgentUtil.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVURLProtocol.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVWebViewEngineProtocol.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVCommandDelegateImpl.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVPlugin.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygon.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView+Animation.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOrientation.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSProjection.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraPosition.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeocoder.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarker.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVGestureHandler.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVViewController.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVTimer.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVConfigParser.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVIntentAndNavigationFilter.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCALayer.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLayer.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSURLTileLayer.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSTileLayer.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSSyncTileLayer.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapLayer.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarkerLayer.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCoordinateBounds.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSServices.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/NSDictionary+CordovaPreferences.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVPlugin+Resources.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSUISettings.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeometryUtils.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/NSMutableArray+QueueAdditions.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSDeprecationMacros.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCompatabilityMacros.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCoordinateBounds+GoogleMaps.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSAddress.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/MapsAPI/MapsAPI.framework/Headers/MapsAPI-Swift.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/DITranquillity/DITranquillity.framework/Headers/DITranquillity-Swift.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVPluginResult.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVWhitelist.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaView.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorDisplay.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlay.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGroundOverlay.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Headers/CDVAvailability.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/DITranquillity/DITranquillity.framework/Headers/DITranquillity.h"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/MapsAPI/MapsAPI.framework/Modules/module.modulemap"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/Cordova/Cordova.framework/Modules/module.modulemap"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Modules/module.modulemap"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Modules/module.modulemap"
+- "/Users/Polina/XcodeApp/taxi_swift/taxi/build/Debug-iphoneos/DITranquillity/DITranquillity.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+interface-hash: "f8532ba6ce84264fa2527c020664a54d"

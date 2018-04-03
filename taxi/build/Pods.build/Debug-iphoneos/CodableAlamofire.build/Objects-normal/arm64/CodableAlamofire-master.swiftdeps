@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "a19a1049bae89dea6276ae81b4d46157"
+build_time: [1522664398, 194351000]
+inputs:
+  "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/CodableAlamofire/Sources/CodableAlamofire/AlamofireDecodableError.swift": [1522083600, 0]
+  "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/CodableAlamofire/Sources/CodableAlamofire/DataRequest+Decodable.swift": [1522083600, 0]

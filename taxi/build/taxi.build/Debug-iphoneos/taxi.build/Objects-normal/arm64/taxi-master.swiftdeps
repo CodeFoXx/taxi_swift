@@ -1,6 +1,23 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
-options: "0289a17da77d6775167985c5582df2aa"
-build_time: [1522039219, 135471000]
+options: "97d7ff59a435c1a3ef161de6bd961038"
+build_time: [1522740510, 540635000]
 inputs:
-  "/Users/Polina/XcodeApp/taxi/taxi/ViewController.swift": [1522039199, 0]
-  "/Users/Polina/XcodeApp/taxi/taxi/AppDelegate.swift": [1522039199, 0]
+  "/Users/Polina/XcodeApp/taxi_swift/taxi/taxi/Modules/Map/MapContract.swift": [1522660149, 0]
+  "/Users/Polina/XcodeApp/taxi_swift/taxi/taxi/Modules/Main/MainViewController.swift": [1522660149, 0]
+  "/Users/Polina/XcodeApp/taxi_swift/taxi/taxi/Modules/Map/MapRouterImpl.swift": [1522660149, 0]
+  "/Users/Polina/XcodeApp/taxi_swift/taxi/taxi/Modules/Main/MainDIPart.swift": [1522660149, 0]
+  "/Users/Polina/XcodeApp/taxi_swift/taxi/taxi/Modules/Map/MapPresenterImpl.swift": [1522660149, 0]
+  "/Users/Polina/XcodeApp/taxi_swift/taxi/taxi/Modules/Main/MainPresenterImpl.swift": [1522660149, 0]
+  "/Users/Polina/XcodeApp/taxi_swift/taxi/taxi/ViewController.swift": [1522039199, 0]
+  "/Users/Polina/XcodeApp/taxi_swift/taxi/taxi/Modules/Map/MapViewController.swift": [1522661874, 0]
+  "/Users/Polina/XcodeApp/taxi_swift/taxi/taxi/DI/NetworkDIPart.swift": [1522660149, 0]
+  "/Users/Polina/XcodeApp/taxi_swift/taxi/taxi/Modules/Main/MainContract.swift": [1522660149, 0]
+  "/Users/Polina/XcodeApp/taxi_swift/taxi/taxi/Modules/GoogleMap/GoogleMapRouterImpl.swift": [1522664416, 0]
+  "/Users/Polina/XcodeApp/taxi_swift/taxi/taxi/AppDelegate.swift": [1522664603, 0]
+  "/Users/Polina/XcodeApp/taxi_swift/taxi/taxi/Modules/GoogleMap/GoogleMapPresenterImpl.swift": [1522664416, 0]
+  "/Users/Polina/XcodeApp/taxi_swift/taxi/taxi/DI/AppDIPart.swift": [1522660149, 0]
+  "/Users/Polina/XcodeApp/taxi_swift/taxi/taxi/Modules/GoogleMap/GoogleMapContract.swift": [1522664416, 0]
+  "/Users/Polina/XcodeApp/taxi_swift/taxi/taxi/Modules/Main/MainRouterImpl.swift": [1522740508, 0]
+  "/Users/Polina/XcodeApp/taxi_swift/taxi/taxi/Modules/Map/MapDIPart.swift": [1522660149, 0]
+  "/Users/Polina/XcodeApp/taxi_swift/taxi/taxi/Modules/GoogleMap/GoogleMapDIPart.swift": [1522664416, 0]
+  "/Users/Polina/XcodeApp/taxi_swift/taxi/taxi/Modules/GoogleMap/GoogleMapViewController.swift": [1522665932, 0]

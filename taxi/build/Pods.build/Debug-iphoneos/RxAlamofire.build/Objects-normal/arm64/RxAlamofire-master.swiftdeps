@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "0c61b09efeafa91e9b807d86f8df7d97"
+build_time: [1522664437, 683458000]
+inputs:
+  "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/RxAlamofire/Sources/RxAlamofire.swift": [1522083602, 0]

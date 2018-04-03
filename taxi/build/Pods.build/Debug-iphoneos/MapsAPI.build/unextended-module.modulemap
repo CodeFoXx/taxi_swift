@@ -1,0 +1,10 @@
+framework module MapsAPI {
+  umbrella header "MapsAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module MapsAPI.__Swift {
+    exclude header "MapsAPI-Swift.h"
+}

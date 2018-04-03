@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "491e34271346abdd21f0021c7c210716"
+build_time: [1522664435, 957324000]
+inputs:
+  "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/SwiftHash/Sources/MD5.swift": [1522083602, 0]
+  "/Users/Polina/XcodeApp/taxi_swift/taxi/Pods/SwiftHash/Sources/SHA1.swift": [1522083602, 0]

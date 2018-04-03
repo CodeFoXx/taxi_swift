@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		1FC2736939A366A227334015 /* Pods_taxi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBBBD07FE497BB1DE42E6E2B /* Pods_taxi.framework */; };
+		3651929920723B6100A86AF6 /* GoogleMap.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3651929320723B6100A86AF6 /* GoogleMap.storyboard */; };
+		3651929A20723B6100A86AF6 /* GoogleMapContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3651929420723B6100A86AF6 /* GoogleMapContract.swift */; };
+		3651929B20723B6100A86AF6 /* GoogleMapDIPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3651929520723B6100A86AF6 /* GoogleMapDIPart.swift */; };
+		3651929C20723B6100A86AF6 /* GoogleMapPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3651929620723B6100A86AF6 /* GoogleMapPresenterImpl.swift */; };
+		3651929D20723B6100A86AF6 /* GoogleMapRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3651929720723B6100A86AF6 /* GoogleMapRouterImpl.swift */; };
+		3651929E20723B6100A86AF6 /* GoogleMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3651929820723B6100A86AF6 /* GoogleMapViewController.swift */; };
+		365192A42073731900A86AF6 /* button_layout.html in Resources */ = {isa = PBXBuildFile; fileRef = 365192A32073731900A86AF6 /* button_layout.html */; };
 		369FAC612068B11F00275408 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369FAC602068B11F00275408 /* AppDelegate.swift */; };
 		369FAC632068B11F00275408 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369FAC622068B11F00275408 /* ViewController.swift */; };
 		369FAC662068B11F00275408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 369FAC642068B11F00275408 /* Main.storyboard */; };
@@ -52,6 +59,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3651929320723B6100A86AF6 /* GoogleMap.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GoogleMap.storyboard; sourceTree = "<group>"; };
+		3651929420723B6100A86AF6 /* GoogleMapContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapContract.swift; sourceTree = "<group>"; };
+		3651929520723B6100A86AF6 /* GoogleMapDIPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapDIPart.swift; sourceTree = "<group>"; };
+		3651929620723B6100A86AF6 /* GoogleMapPresenterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapPresenterImpl.swift; sourceTree = "<group>"; };
+		3651929720723B6100A86AF6 /* GoogleMapRouterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapRouterImpl.swift; sourceTree = "<group>"; };
+		3651929820723B6100A86AF6 /* GoogleMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapViewController.swift; sourceTree = "<group>"; };
+		365192A32073731900A86AF6 /* button_layout.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = button_layout.html; sourceTree = "<group>"; };
 		369FAC5D2068B11F00275408 /* taxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taxi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		369FAC602068B11F00275408 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		369FAC622068B11F00275408 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -120,6 +134,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3651929F20723C0E00A86AF6 /* GoogleMap */ = {
+			isa = PBXGroup;
+			children = (
+				365192A020723C4A00A86AF6 /* View */,
+				3651929320723B6100A86AF6 /* GoogleMap.storyboard */,
+				3651929420723B6100A86AF6 /* GoogleMapContract.swift */,
+				3651929520723B6100A86AF6 /* GoogleMapDIPart.swift */,
+				3651929620723B6100A86AF6 /* GoogleMapPresenterImpl.swift */,
+				3651929720723B6100A86AF6 /* GoogleMapRouterImpl.swift */,
+				3651929820723B6100A86AF6 /* GoogleMapViewController.swift */,
+			);
+			path = GoogleMap;
+			sourceTree = "<group>";
+		};
+		365192A020723C4A00A86AF6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		369FAC542068B11F00275408 = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +192,7 @@
 				369FAC692068B11F00275408 /* LaunchScreen.storyboard */,
 				369FAC6C2068B11F00275408 /* Info.plist */,
 				F79EE2C9206A0C5A0015B5C1 /* map.js */,
+				365192A32073731900A86AF6 /* button_layout.html */,
 			);
 			path = taxi;
 			sourceTree = "<group>";
@@ -205,6 +241,7 @@
 		F79EE2A72069FFB30015B5C1 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				3651929F20723C0E00A86AF6 /* GoogleMap */,
 				F79EE2C1206A00430015B5C1 /* Map */,
 				F79EE2B4206A000A0015B5C1 /* Main */,
 			);
@@ -380,6 +417,8 @@
 				369FAC6B2068B11F00275408 /* LaunchScreen.storyboard in Resources */,
 				369FAC682068B11F00275408 /* Assets.xcassets in Resources */,
 				F79EE2BB206A003C0015B5C1 /* Map.storyboard in Resources */,
+				365192A42073731900A86AF6 /* button_layout.html in Resources */,
+				3651929920723B6100A86AF6 /* GoogleMap.storyboard in Resources */,
 				369FAC662068B11F00275408 /* Main.storyboard in Resources */,
 				F79EE2AE206A00020015B5C1 /* Main.storyboard in Resources */,
 			);
@@ -578,9 +617,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-taxi/Pods-taxi-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -604,10 +646,15 @@
 				F79EE2C0206A003C0015B5C1 /* MapViewController.swift in Sources */,
 				F79EE2C7206A016C0015B5C1 /* NetworkDIPart.swift in Sources */,
 				F79EE2AF206A00020015B5C1 /* MainContract.swift in Sources */,
+				3651929D20723B6100A86AF6 /* GoogleMapRouterImpl.swift in Sources */,
 				369FAC612068B11F00275408 /* AppDelegate.swift in Sources */,
+				3651929C20723B6100A86AF6 /* GoogleMapPresenterImpl.swift in Sources */,
 				F79EE2C5206A015B0015B5C1 /* AppDIPart.swift in Sources */,
+				3651929A20723B6100A86AF6 /* GoogleMapContract.swift in Sources */,
 				F79EE2B2206A00020015B5C1 /* MainRouterImpl.swift in Sources */,
 				F79EE2BD206A003C0015B5C1 /* MapDIPart.swift in Sources */,
+				3651929B20723B6100A86AF6 /* GoogleMapDIPart.swift in Sources */,
+				3651929E20723B6100A86AF6 /* GoogleMapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
